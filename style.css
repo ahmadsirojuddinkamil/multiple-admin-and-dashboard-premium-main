@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ============ */
+/* start header */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.button-header-1 {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.button-header-2 {
+    background-color: #1A73E8;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 80px;
+    text-align: center;
+}
+
+.button-header-2:hover {
+    background-color: #2e83f3;
+}
+/* end header */
+
+
+
+/* ========== */
+/* Start Main */
+.main {
+    text-align: center;
+    margin-top: 212px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.text-main {
+    color: #4387ee;
+    margin-top: -22px;
+    margin-left: 210px;
+}
+
+.search-main {
+    margin-top: 25px;
+    font-size: 18px;
+    width: 580px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid #DADADB;
+    padding-left: 50px;
+    outline: none;
+}
+
+.img-search-1{
+    position: absolute;
+    margin-left: -615px;
+    margin-top: 42px;
+    height: 15px;
+    width: 17px;
+}
+
+.img-search-2 {
+    position: absolute;
+    height: 20px;
+    width: 14px;
+    margin-top: 40px;
+    margin-left: -110px;
+}
+
+.img-search-3 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 40px;
+    margin-left: -75px;
+}
+
+.img-search-4 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 40px;
+    margin-left: -38px;
+}
+
+/* End Main */
+
+
+
+/* ========== */
+/* Start Footer */
+.footer {
+    position: absolute;
+    top: 90%;
+    height: 10%;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+.footer a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #615d5e;
+    font-size: 15px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.text-footer {
+    margin-left: 30px;
+    margin-top: 16px;
+    color: #70757A;
+    font-size: 15px;
+}
+
+.line {
+    margin-top: 14px;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.footer-left a {
+    margin-top: 17px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+/* End Footer */
